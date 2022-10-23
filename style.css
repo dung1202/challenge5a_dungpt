@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+input, button {
+    padding: 6px;
+    border-radius: 10px;
+    outline-style: none;
+}
+
+button {
+    color: #694E4E;
+    background-color: #C1A3A3;
+    font-size: large;
+    cursor: pointer;
+}
+
+.conf{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://mega.com.vn/media/news/0106_hinh-nen-4k-may-tinh14.jpg");
+}
+
+.error {
+    margin: 5px;
+    color: #ff4848;
+    font-size: 1rem;
+}
+
+.page {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    outline: none;
+}
+
+.submit {
+    transition-duration: 0.4s;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container {
+    padding: 16px 20px;
+}

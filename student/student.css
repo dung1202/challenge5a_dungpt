@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.avatar{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.avatar1{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}   
+
+.code{
+	height: 50px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkseagreen;
+    font-weight: 600;
+    color: brown;
+}
+
+.conf{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://mega.com.vn/media/news/0106_hinh-nen-4k-may-tinh14.jpg");
+}
+
+.nop_file{
+	width: 30%;
+    position: relative;
+    border: 2px solid khaki;
+    padding: 50px;
+}
+
+
+
+.nop_game{
+	width: 30%;
+    position: relative;
+    border: 2px solid khaki;
+    padding: 10px;
+}
+
+.ipn{
+	position: relative;
+	left: 50%; 
+	transform: translateX(-50%);
+	outline: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+.sidebar{
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #192a56;
+    overflow-x: hidden; 
+    font-size: 16px;
+}
+
+.link{
+	color: darkgreen;
+    text-decoration: none;
+}
+
+.link:hover{
+	color: blueviolet;
+}
+
+.sidebar .menu{
+	margin-top: 50px;
+}
+
+.sidebar .menu li{
+    list-style-type: none;
+}
+
+.chon{
+    background-color: #555!important;
+	color: yellowgreen!important;
+}
+
+.sidebar .menu li a{
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    color: beige;
+    text-align: center;
+}
+
+.sidebar .menu li a:hover{
+    background-color: #e6e6ff;
+	color: #192a56;
+}
+
+.err{
+    color:  red!important;
+    font-size: small!important;
+	font-style: italic!important;
+	margin-bottom: 10px;
+}
+
+/* Change-info */
+
+.content, .con{
+	margin-left: 160px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 100vh;
+	background: rgba(88, 2, 38, 0.5);
+	box-sizing: border-box;
+    color:cyan;
+    font-weight: 600;
+}
+
+.true{
+	margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color:cyan;
+	overflow: auto;
+	height:300px;
+}
+
+
+.content form{
+	width: 30%;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.content p, .con p{
+	font-size: 16px!important;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+
+.content .add, .container .row .add, .con .add{
+    padding: 15px;
+    background: #192a56;
+    color: white;
+    border: none;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.content input[type="text"], .content input[type="password"]{
+	display: block;
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+}
+
+.content input[type="text"]:focus,.content input[type="text"]:hover,
+.content input[type="password"]:focus,.content input[type="password"]:hover{
+	outline: none;
+	box-shadow: 0px 0px 8px #888888;
+}
+
+.content input[type="submit"], .con input[type="submit"]{
+	border: none;
+	padding: 20px;
+	background: #192a56;
+	color: white;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 10px;
+}
+
+.content form input[type="file"]{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.content input[type="submit"]:hover{
+	box-shadow: 2px 2px 4px #192a56;
+}
+
+.content form a{
+	text-decoration: none;
+}
+
+.content form a:hover, .content form a:visited{
+	text-decoration: none;
+}
+
+.content table{
+	width: 100%;
+	position: relative;
+	top: 50px;
+}
+
+.content table, th, td{
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    background: none;
+	padding: 15px;
+}
+
+/* message */
+.container{
+    margin-left: 160px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 100vh;
+	background-color:rgba(88, 29, 38, 0.5) ;
+	box-sizing: border-box;
+    color: #ffff;
+}
+
+.container .row{
+	margin-bottom: 50px;
+	box-sizing: border-box;
+}
+
+.container .row p{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.container .row:last-child{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+.container .row input[type=text]{
+	width: 75%;
+	border: none;
+	border-radius: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	background-color: skyblue;
+	color: white;
+	font-size: 18px;
+}
+
+.error{
+	margin: 5px;
+    color: #ff4848;
+    font-size: 1rem;
+}
+
+.container .row input[type=text]:focus{
+	outline: none;
+	box-shadow: 2px 2px 4px #192a56;
+}
+
+.container .row input[type=submit]{
+	border: none;
+	background-color: pink;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.container .row input[type=submit]:hover{
+	outline: none;
+	box-shadow: 2px 2px 4px #192a56;
+}
